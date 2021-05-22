@@ -9,7 +9,7 @@ import time
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # read and resize image to the required size
-image = cv2.imread('Car_Image_1.jpg')
+image = cv2.imread('xeoto.jpg')
 image = imutils.resize(image, width=500)
 cv2.imshow("Original Image", image)
 
@@ -52,7 +52,7 @@ cv2.namedWindow("Final Image",cv2.WINDOW_NORMAL)
 cv2.imshow("Final Image",new_image)
 
 # configuration for tesseract
-config = ('-l eng --oem 1 --psm 3')
+config = ('-l eng --oem 1 --psm 6')
 
 # run tesseract OCR on image
 text = pytesseract.image_to_string(new_image, config=config)
@@ -63,7 +63,6 @@ df = pd.DataFrame(raw_data)
 df.to_csv('data.csv',mode='a')
 
 # print recognized text
-print(text)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()

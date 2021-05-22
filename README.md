@@ -1,16 +1,28 @@
-# Automatic-License-Plate
-
-Automatic License Plate Recognition (ALPR) is a technology that uses optical character recognition (OCR) to automatically read license plate characters. 
+# How to run:
+In this folde run command:
+python License_Plate_Recognition.py
 
 ALPR involves three major steps:
 # Note for windown:
 Refer install tesseract-ocr: https://tesseract-ocr.github.io/tessdoc/Installation.html
-1.	License Plate Detection – This is the most important stage of the system. At this stage, the system determines the position of the license plate, inputs an image of the vehicle, and outputs the license plate.
 
-2.	Character Segmentation – This stage is where the characters on the license plate get mapped out and segmented into individual images.
 
-3.	Character Recognition – This stage is where the segmented characters are identified.
+## Original Car Picture
+![alt text](https://github.com/technghiath/Automatic-License-Plate/result/original_image.png/?raw=true)
 
-Here, the system uses Python, OpenCV and Tesseract to identify vehicles by their license plates and stored along with the date and time in a CSV file. OpenCV is used to detect number plates and Python Tesseract is used to extract characters and digits from the number plates. 
+## Grayscale Conversion:
+![alt text](https://github.com/technghiath/Automatic-License-Plate/result/grayscale_conversion.png/?raw=true)
+
+## Apply Bilateral Filter
+![alt text](https://github.com/technghiath/Automatic-License-Plate/result/bilateral_filter.png/?raw=true)
+
+## Canny Edges
+![alt text](https://github.com/technghiath/Automatic-License-Plate/result/canny_edges.png/?raw=true)
+
+## Final Image with Car Plate Detected
+![alt text](https://github.com/technghiath/Automatic-License-Plate/result/final.png/?raw=true)
+
+## Import IN CSV
+![alt text](https://github.com/technghiath/Automatic-License-Plate/data.csv/?raw=true)
 
 &nbsp;
