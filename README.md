@@ -8,19 +8,19 @@ Refer install tesseract-ocr: https://tesseract-ocr.github.io/tessdoc/Installatio
 
 
 ## Original Car Picture
-![alt text](https://github.com/technghiath/Automatic-License-Plate/result/original_image.png/?raw=true)
+![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/result/original_image.png?raw=true)
 
 ## Grayscale Conversion:
-![alt text](https://github.com/technghiath/Automatic-License-Plate/result/grayscale_conversion.png/?raw=true)
+![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/result/grayscale_conversion.png?raw=true)
 
 ## Apply Bilateral Filter
-![alt text](https://github.com/technghiath/Automatic-License-Plate/result/bilateral_filter.png/?raw=true)
+![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/result/bilateral_filter.png?raw=true)
 
 ## Canny Edges
-![alt text](https://github.com/technghiath/Automatic-License-Plate/result/canny_edges.png/?raw=true)
+![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/result/canny_edges.png?raw=true)
 
 ## Final Image with Car Plate Detected
-![alt text](https://github.com/technghiath/Automatic-License-Plate/result/final.png/?raw=true)
+![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/result/final.png?raw=true)
 
 ## Import IN CSV
 ![alt text](https://github.com/technghiath/Automatic-License-Plate/data.csv/?raw=true)
