@@ -1,3 +1,5 @@
+# Github: https://github.com/technghiath/Automatic-License-Plate
+
 # How to run:
 In this folde run command:
 python License_Plate_Recognition.py
@@ -23,6 +25,6 @@ Refer install tesseract-ocr: https://tesseract-ocr.github.io/tessdoc/Installatio
 ![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/result/final.png?raw=true)
 
 ## Import IN CSV
-![alt text](https://github.com/technghiath/Automatic-License-Plate/data.csv/?raw=true)
+![alt text](https://github.com/technghiath/Automatic-License-Plate/blob/main/csv.png?raw=true)
 
 &nbsp;
